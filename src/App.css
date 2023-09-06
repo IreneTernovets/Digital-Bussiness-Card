@@ -1,0 +1,50 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: 'Inter', sans-serif;
+color: #FFFFFF;
+background-color: #23252C;
+font-weight: 400;
+}
+
+header {
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #1A1B21;
+  border-radius: 15px 15px 0 0;
+  
+
+}
+
+.hero-photo {
+width: 100%;
+border-radius: 15px 15px 0 0;
+margin-bottom: 20px;
+}
+
+header > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+header > h4 {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.contact-buttons > button {
+  width: 115px;
+  font-size: inherit;
+}
